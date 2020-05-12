@@ -4,7 +4,7 @@
 
 using namespace std; // just typing it once instead of std::cout each time
 
-void sum_multiples(int num) //
+int sum_multiples(int num) //
 {
   int sum = 0;
   for (int i = 0; i < num; i++)
@@ -25,4 +25,5 @@ int main()
 {
   int number = 1000;
   sum_multiples(number);
+  return 0;
 }

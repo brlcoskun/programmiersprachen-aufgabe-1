@@ -1,20 +1,21 @@
 #include <iostream>
+//using namespace std;
 
-int kleinste_zahl();
+int smallest_number();
 
 int main()
 {
-  std::cout << "Hello, World!\n"; // neue zeile
+  std::cout << "Hello, World!\n"; // n-new line
 
-  int result = kleinste_zahl();
-  std::cout << "Kleinste Zahl ist: " << result << " \n";
+  int result = smallest_number();
+  std::cout << "Smallest number is: " << result << " \n";
   return 0;
 }
 
-int kleinste_zahl()
+int smallest_number()
 {
-  int potential = 20; // anfangszahl
-  bool found_number = true;
+  int potential = 20;       //beginning number
+  bool found_number = true; //declaring a boolean value with true
 
   do
   {
